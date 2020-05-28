@@ -19,7 +19,7 @@ git rm new_file.txt # remove file (should be followed by a commit and 'rm new_fi
 ---------------------------------------------------------
 git reset --hard # go back to repo before change - if changes are not commited
 git checkout -- proteins.txt # go back to file before change - if changes are not commited
-git revert identifier # reverting the latest commit (identifier that you want to undo, not the one you want to get back to)
+git revert identifier # ‘reverting’ the latest commit (identifier that you want to undo, not the one you want to get back to)
 git checkout identifier -- filename # obtain an older version of a particular file
 git checkout identifier # get back to an older version without actually undoing the changes between that version and the current version
 git checkout master # return to the latest commit
