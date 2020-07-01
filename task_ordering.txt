@@ -1,0 +1,2 @@
+
+what is redis + redis and django
