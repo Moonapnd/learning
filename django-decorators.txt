@@ -1,0 +1,15 @@
+
+# View decorators :
+Django provides several decorators that can be applied to views (function-based or class-based) to support various HTTP features.
+
+## where to use decorators :
+- Allowed HTTP methods
+- Conditional view processing
+- GZip compression
+- Caching
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+# avoid the usage of the ready() event by placing all JavaScript includes and inline code before the closing <body> element, for two reasons:
+-  pages load faster when the JavaScript is loaded by the browser at the end of a page parse. 
+- Not using the ready() event results in using less code,wich meen less bugs and more speed
+
+# selecting DOM element(s) :
+- using CSS selectors and custom selectors : 
+  - jQuery('a').length , 
+  - jQuery('selector1, selector2, selector3').length ...
+-  using an actual JavaScript reference to DOM element(s) : 
+  - jQuery(document.getElementsByTagName('a')).length
+  - jQuery(document.body).attr('bgcolor')

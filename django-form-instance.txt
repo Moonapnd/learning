@@ -1,0 +1,25 @@
+
+# rendering the form instance inside the template context
+
+- {{ form }} will render its <label> and <input> elements appropriately;
+- {{ form.as_table }} will render them as table cells wrapped in <tr> tags;
+- {{ form.as_p }} will render them wrapped in <p> tags;
+- {{ form.as_ul }} will render them wrapped in <li> tags.
+
+
+## render only one form field :
+<div class='fieldWrapper'>
+    {{ form.title.errors }}
+    {{ form.title.label_tag }}
+    {{ form.title }}
+</div>
+
+## loop through each form field :
+{% for field in form %}
+    <div class='fieldWrapper'>
+        {{ field.errors }}
+        {{ field.label_tag }} {{ field }}
+    </div>
+{% endfor %}
+
+

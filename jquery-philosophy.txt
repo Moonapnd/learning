@@ -1,0 +1,68 @@
+
+# The jQuery Philosophy:
+- Finding some elements and doing something with them 
+- Chaining multiple jQuery methods 
+- Using the jQuery wrapper (selected HTML elements) and implicit iteration
+
+# How the jQuery API Is Organized:
+## jQuery Core
+- The jQuery Function
+- jQuery Object Accessors
+- Data
+- Plugins
+- Interoperability
+## Selectors
+- Basics
+- Hierarchy
+- Basic Filters
+- Content Filters
+- Visibility Filters
+- Attribute Filters
+- Child Filters
+- Forms
+- Form Filters
+## Attributes
+- Attr
+- Class
+- HTML
+- Text
+- Value
+## Traversing
+- Filtering
+- Finding
+- Chaining
+## Manipulation
+- Changing Contents
+- Inserting Inside
+- Inserting Outside
+- Inserting Around
+- Replacing
+- Removing
+- Copying
+## CSS
+- CSS
+- Positioning
+- Height and Widths
+## Events
+- Page Load
+- Event Handling
+- Live Events
+- Interaction Helpers
+- Event Helpers
+## Effects
+- Basics
+- Sliding
+- Fading
+- Custom
+- Settings
+## Ajax
+- AJAX Requests
+- AJAX Events
+- Misc.
+## Utilities
+- Browser and Feature Detection
+- Array and Object Operations
+- Test Operations
+- String Operations
+- Urls
+

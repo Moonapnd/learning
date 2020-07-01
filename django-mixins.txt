@@ -1,0 +1,12 @@
+# Mixins :
+
+## what is it :
+Mixins are a form of multiple inheritance where behaviors and attributes of multiple parent classes can be combined.
+
+## where to use them :
+- Provide multiple optional features for a class;
+- Use a particular feature in several classes.
+
+## mixins come with some cost :
+- The more mixins you use, the harder it will be to read a child class; 
+- You can only inherit from one generic view.

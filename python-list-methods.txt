@@ -1,0 +1,15 @@
+
+# List methods:
+
+- list.append(x)
+- list.extend(iterable)
+- list.insert(i, x)
+- list.remove(x)
+- list.clear()
+- list.count(x)
+- list.index(x)
+- list.sort(key=None, reverse=False)
+- list.reverse()
+- list.copy()
+
+

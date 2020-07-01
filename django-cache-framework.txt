@@ -1,0 +1,16 @@
+
+# why caching:
+You can cache a single query, the output of a specific view, parts of rendered template content, or your entire site
+This translates into shorter response times and less processing on the server side.
+
+# Available cache backends
+- backends.memcached.MemcachedCache
+- backends.db.DatabaseCache
+- backends.filebased.FileBasedCache
+- backends.locmem.LocMemCache
+- backends.dummy.DummyCache
+
+
+
+
+
