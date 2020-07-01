@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $('#create-mail-btn').click(function(){
+        var serializedData = $('#mail-form').serialize();
+        $.ajax({
+            url: $('#mail-form').data('url'),
+            data: serializedData,
+            type: 'post',
+            success: function(response){
+                $('#mail-list').append("<div class='card-body'>" + response.mail.title + "<button type='button' class='close float-right'><span aria-hiden='true'>&times;</span></button></div>")
+            }
+        })
+        $('#mail-form')[0].reset(); // clear form after submit
+    })
+
+})
