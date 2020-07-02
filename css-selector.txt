@@ -1,0 +1,10 @@
+
+select with :
+- tag name 
+- id
+- class
+- attribute (ex: a[title])
+- pseudo-class (ex: a:hover {})
+- pseudo-element (ex: p::first-line {})
+- combinator (ex: div > p {} - whene p is direct children of div)
+- multiple elements (div, p {} - div and p)
